@@ -14,6 +14,6 @@ Either way, shoot us a note at dseliger@cto.nyc.gov!
 
 ##Project Partners
 
-[NYC Mayor's Office of Tech + Innovation](http://www.nyc.gov/forward)
-[NYC Mayor's Office of Operations](http://www.nyc.gov/operations)
-[NYC Department of Information Technology and Telecommunications](http://www.nyc.gov/doitt)
+* [NYC Mayor's Office of Tech + Innovation](http://www.nyc.gov/forward)
+* [NYC Mayor's Office of Operations](http://www.nyc.gov/operations)
+* [NYC Department of Information Technology and Telecommunications](http://www.nyc.gov/doitt)
