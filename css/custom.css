@@ -113,10 +113,19 @@ p{
 .panel-title {
   font-size: 40px;
 }
+
+
 .panel-heading span {
     margin-top: -35px;
     font-size: 15px;
 }
+
+.panel-default>.panel-heading {
+    color: #333;
+    background-color: transparent;
+    border-color: #7F8C8D;
+}
+
 .clickable {
     cursor: pointer;
 } 
