@@ -1,12 +1,95 @@
+/* ----------------------- Fonts ----------------------- */
+
+@font-face {
+font-family: CircularStd;
+font-weight: 400;
+font-style: normal;
+src: url("../fonts/circular-std/CircularStd-Book.otf") format("opentype");
+}
+
+@font-face {
+font-family: CircularStd;
+font-weight: 500;
+font-style: normal;
+src: url("../fonts/circular-std/CircularStd-Medium.otf") format("opentype");
+}
+
+@font-face {
+font-family: CircularStd;
+font-weight: bold;
+font-style: normal;
+src: url("../fonts/circular-std/CircularStd-Bold.otf") format("opentype");
+}
+
+@font-face {
+font-family: CircularStd;
+font-weight: 900;
+font-style: normal;
+src: url("../fonts/circular-std/CircularStd-Black.otf") format("opentype");
+}
+
+@font-face {
+font-family: CircularStd;
+font-weight: 400;
+font-style: italic;
+src: url("../fonts/circular-std/CircularStd-BookItalic.otf") format("opentype");
+}
+
+@font-face {
+font-family: CircularStd;
+font-weight: 500;
+font-style: italic;
+src: url("../fonts/circular-std/CircularStd-MediumItalic.otf") format("opentype");
+}
+
+@font-face {
+font-family: CircularStd;
+font-weight: 700;
+font-style: italic;
+src: url("../fonts/circular-std/CircularStd-BoldItalic.otf") format("opentype");
+}
+
+@font-face {
+font-family: CircularStd;
+font-weight: 900;
+font-style: italic;
+src: url("../fonts/circular-std/CircularStd-BlackItalic.otf") format("opentype");
+}
+
+body {
+  font-family: "CircularStd", "Lato", Helvetica, Arial, sans-serif;
+}
+
+span.glyphicon-chevron-down {
+    font-size: 3em;
+}
+
+/*  ----------------------- Containers ----------------------- */
+
+.container-top{
+   background-color: black;
+   padding-top: -20px;
+}
+
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
 footer {
   padding-top: 50px;
   background-color: black;
   color: white;
   font-style: bold;
 }
+
+
+/* ----------------------- Main Elements ----------------------- */
+
 footer p{
   color: white;
   font-size: 10px;
+  line-height: 110%;
 }
 footer a{
   color: white;
@@ -18,16 +101,49 @@ small a{
   color: white;
 }
 
-.btn-danger{
-  background-color: #EA2879;
+h2{
+  color: #2C3E50;
+}
+h3{
+  color: #2C3E50;
+}
+h4{
+  color: #2C3E50;
+}
+p{
+  color: #2C3E50;
 }
 
+hr {
+  border-color: #34495E;
+}
+
+.container h3{
+  margin-top: 5%;
+}
+.container h2{
+  margin-bottom: 10%;
+}
+
+/* ----------------------- Buttons ----------------------- */
+
+.btn-danger{
+  color: #2C3E50;
+  background-color: white;
+  border: solid 2px #2C3E50;
+}
 .btn-danger:hover,
 .btn-danger:focus,
 .btn-danger:active,
 .btn-danger.active,
 .open .dropdown-toggle.btn-danger {
   background-color: #EA547B;
+}
+
+/* ----------------------- Navbar ----------------------- */
+
+.navbar {
+  min-height: 20px;
 }
 
 .navbar-inverse{
@@ -52,42 +168,6 @@ small a{
   padding-bottom: 0px;
 }
 
-.container-top{
-   background-color: black;
-   padding-top: -20px;
-}
-
-.starter-template {
-  padding: 40px 15px;
-  text-align: center;
-}
-.jumbotron {
-  margin-bottom: 30px;
-  padding-top: 15%;
-  padding-bottom: 20%;
-  color: #ECF0F1;
-  background-color: #eee;
-  background-image: url('../img/nyc.jpg');
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center bottom;
-  text-align: center;
-}
-
-h2{
-  color: black;
-}
-h3{
-  color: black;
-}
-h4{
-	color: black;
-}
-p{
-	color: black;
-}
-
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
@@ -95,13 +175,8 @@ p{
   background-color: white;
 }
 
+/* ----------------------- Panel ----------------------- */
 
-.container h3{
-  margin-top: 5%;
-}
-.container h2{
-  margin-bottom: 10%;
-}
 
 .panel .row{
   padding: 10px;
@@ -114,7 +189,6 @@ p{
   font-size: 40px;
 }
 
-
 .panel-heading span {
     margin-top: -35px;
     font-size: 15px;
@@ -126,6 +200,8 @@ p{
     border-color: #7F8C8D;
 }
 
+/* ----------------------- Images and Videos ----------------------- */
+
 .clickable {
     cursor: pointer;
 } 
@@ -136,8 +212,9 @@ p{
   margin-top: 5%;
 }
 
+/* ----------------------- Media Queries ----------------------- */
 
-@media (min-width: 768px) {
+@media (min-width: 991px) {
     .navbar .navbar-nav {
         display: inline-block;
         float: none;
@@ -148,6 +225,7 @@ p{
         text-align: center;
     }
 }
+
 @media (max-width: 991px) {
     .navbar-header {
         float: none;
@@ -177,22 +255,19 @@ p{
         float: none;
         margin: 15px 0;
     }
-    /* since 3.1.0 */
     .navbar-collapse.collapse.in { 
         display: block!important;
     }
     .collapsing {
         overflow: hidden!important;
     }
-    small{
+    .mobile-hide{
       display: none;
     }
     .navbar .navbar-collapse {
         text-align: left;
     }
-    #google_translate_element {
-      display: none;
-    }
+    
 
 }
 .modal.fade .modal-dialog {
