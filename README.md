@@ -10,7 +10,7 @@ The website is built on [Bootstrap](http://www.getbootstrap.com), an extremely e
 
 We want you to use or modify this website for your city. If you're GitHub-savvy, you can [fork this repository](https://help.github.com/articles/fork-a-repo/) for your organization. If you just want to download the code as a ZIP file, click Download ZIP at the bottom of the right-hand navigation bar.
 
-Either way, shoot us a note at dseliger@cto.nyc.gov!
+Either way, shoot us a note at moti@cto.nyc.gov!
 
 ##Project Partners
 
