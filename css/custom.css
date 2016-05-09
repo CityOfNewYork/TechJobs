@@ -1,63 +1,7 @@
 /* ----------------------- Fonts ----------------------- */
 
-@font-face {
-font-family: CircularStd;
-font-weight: 400;
-font-style: normal;
-src: url("../fonts/circular-std/CircularStd-Book.otf") format("opentype");
-}
-
-@font-face {
-font-family: CircularStd;
-font-weight: 500;
-font-style: normal;
-src: url("../fonts/circular-std/CircularStd-Medium.otf") format("opentype");
-}
-
-@font-face {
-font-family: CircularStd;
-font-weight: bold;
-font-style: normal;
-src: url("../fonts/circular-std/CircularStd-Bold.otf") format("opentype");
-}
-
-@font-face {
-font-family: CircularStd;
-font-weight: 900;
-font-style: normal;
-src: url("../fonts/circular-std/CircularStd-Black.otf") format("opentype");
-}
-
-@font-face {
-font-family: CircularStd;
-font-weight: 400;
-font-style: italic;
-src: url("../fonts/circular-std/CircularStd-BookItalic.otf") format("opentype");
-}
-
-@font-face {
-font-family: CircularStd;
-font-weight: 500;
-font-style: italic;
-src: url("../fonts/circular-std/CircularStd-MediumItalic.otf") format("opentype");
-}
-
-@font-face {
-font-family: CircularStd;
-font-weight: 700;
-font-style: italic;
-src: url("../fonts/circular-std/CircularStd-BoldItalic.otf") format("opentype");
-}
-
-@font-face {
-font-family: CircularStd;
-font-weight: 900;
-font-style: italic;
-src: url("../fonts/circular-std/CircularStd-BlackItalic.otf") format("opentype");
-}
-
 body {
-  font-family: "CircularStd", "Lato", Helvetica, Arial, sans-serif;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
 }
 
 span.glyphicon-chevron-down {
